@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+title: ' FTIR-Kramers-Kronig-Lizzi-Lenz'
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Ole
+    family-names: Lenz
+    email: ole.lenz@campus.tu-berlin.de
+    affiliation: Charité Universitätsmedizin
+    orcid: 'https://orcid.org/0009-0004-9462-3539'
+  - given-names: Franco
+    family-names: Lizzi
+    email: franco.lizzi@charite.de
+    affiliation: Charité Universitätsmedizin
+    orcid: 'https://orcid.org/0000-0001-8477-4035'
+repository-code: 'https://github.com/olelenz/FTIR-Kramers-Kronig-Lizzi-Lenz'
+abstract: >-
+  This code takes a reflectance spectrum and applies the
+  Kramers-Kronig Transformation (as approximated by Lichvar)
+  to calculate the phase shift and the reflective index.
+  From such variables, the absorption spectra are obtained.
+
+
+  The input file needs an equally spaced wavelength on the
+  top row, and the spectra acquisition from the second row
+  on. 
+keywords:
+  - Kramers Kronig
+  - FTIR
+  - Reflectance
+license: MIT
+version: '1.0'
+date-released: '2025-01-24'
